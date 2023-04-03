@@ -1,0 +1,39 @@
+.header {
+  padding: 1rem;
+}
+
+.header__container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.header__logo {
+    width: 30.48780%;
+    margin-right: 10.823170731%;
+}
+
+.header__search {
+  display: none;
+}
+
+.header__search:active {
+  border: none;
+  box-shadow: none;
+}
+
+.header__search--button {
+  position: absolute;
+  height: 1.5rem;
+  right: 0;
+  width: 1.5rem;
+}
+
+.header__loginButton {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.75rem 0;
+  width: 40.548780%;
+}
+

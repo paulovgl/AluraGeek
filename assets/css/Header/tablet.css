@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+
+  .header__logo {
+    width: 14.2045%;
+    margin-right: 4.54%;
+  }
+
+  .header__search {
+    background-color: var(--softWhite);
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 0 0 0;
+    display: block;
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    text-align: start;
+    width: calc(38.63% - 40px);
+  }
+
+  .header__search--button {
+    background-color: var(--softWhite);
+    border-radius: 0px 20px 20px 0px;
+    padding: 0.5rem 0;
+    padding-right: 1rem;
+    position: inherit;
+    margin-right: 19.034090%;
+  }
+
+  .header__loginButton {
+    width: 23.579545%;
+  }
+}

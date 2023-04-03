@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  background-color: var(--softWhite);
+  text-align: -webkit-center;
+}
+
+section {
+  max-width: 71rem;
+}
+
+header {
+  background-color: var(--strongWhite);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+input {
+  all: unset;
+  font-family: "Raleway", sans-serif;
+}
+
+.default__button--outline {
+  background-color: var(--strongWhite);
+  border: 1px solid var(--strongBlue);
+  color: var(--strongBlue);
+  text-align: center;
+}
+
+/* .default__button--filled {
+} */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+}
